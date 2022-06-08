@@ -46,7 +46,7 @@ function App() {
 
   function getdata(val){
     setData(val.target.value);
-    
+    setPrint(false);
     
    }
    
