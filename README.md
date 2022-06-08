@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Overview
 Languages used: HTML,CSS,Javascript and React.
+
 This is dummy application with an objective of running SQL queries and displaying the results.First the user needs to upload the data file in .csv format and then write the SQL command which will in return parse the csv file and display the results in tabular form.The data of the csv file is parsed using papaparse plugins as react-papaparse is the fastest in-browser CSV (or delimited text) parser for React. It is full of useful features such as CSVReader, CSVDownloader, readString, jsonToCSV, readRemoteFile, ... etc.
 I measured the Page Load Times Using Google Pagespeed Insights,This tool will then works its magic and determine how fast the webpage loads. This tool will then tell you what’s good about your site, but what is also dragging it down.
 
