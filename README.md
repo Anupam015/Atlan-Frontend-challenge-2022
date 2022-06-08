@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Languages used: HTML,CSS,Javascript and React.
 Deployment-Netlify
 
-This is dummy application with an objective of running SQL queries and displaying the results. To run this first the user needs to upload a `CSV File` and then write the SQL command which will in return parse the csv file and display the results in tabular form.The data of the csv file is parsed using papaparse plugins as react-papaparse is the fastest in-browser CSV (or delimited text) parser for React. It is full of useful features such as CSVReader, CSVDownloader, readString, jsonToCSV, readRemoteFile, ... etc.
+This is dummy application with an objective of running SQL queries and displaying the results.To run,first the user needs to upload `CSV File` and then write the SQL command which will in return parse the csv file and display the results in tabular form.The data of the csv file is parsed using papaparse plugins as react-papaparse is the fastest in-browser CSV (or delimited text) parser for React. It is full of useful features such as CSVReader, CSVDownloader, readString, jsonToCSV, readRemoteFile, ... etc.
 I measured the Page Load Times Using Google Pagespeed Insights,This tool will then works its magic and determine how fast the webpage loads. This tool will then tell you what’s good about your site, but what is also dragging it down.
 
 ## Available Scripts
