@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  color: rgb(39, 130, 204);
+  background-color: black;
+}
+body{
+  background-color: black;
+}
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  margin-top:100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+.App-header {
+  background-color:black;
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(105, 162, 212);
+  margin-bottom: auto;
+  
+}
+th{
+  
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(39, 130, 204);
+  font-size: 12px;
+}
+tr{
+  
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(39, 130, 204);
+  font-size: 12px;
+}
+thead{
+  font-size: 22px;
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(14, 121, 215);
+}
+td{
+  font-size: 15px;
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(14, 121, 215);
+}
+tbody{
+  font-size: 1px;
+  
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(14, 121, 215);
+}
+table{
+  font-size: 22px;
+  border:1px solid;
+  white-space: nowrap;
+  color: rgb(14, 121, 215);
+  margin-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
